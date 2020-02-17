@@ -29,7 +29,7 @@ function Utestlist(U)
   n=[U[1] U[2] U[3]; U[4] U[5] U[6]] # This depends on nq
   p=[U[7] U[8]]
   nq=2 #usually fixed, never optimize over nq
-  return Utest(n,p,nq)
+  return U(n,p,nq)
 end
 
 
