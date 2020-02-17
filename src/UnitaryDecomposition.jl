@@ -7,7 +7,7 @@ include("Pauli.jl")
 include("BlochRotation.jl")
 include("BasicGates.jl")
 
-export Udecompose
+export UDecompose()
 
 #This code will decompose an unitary into blocks of single qubit rotations
 #and cnots between adjacent qubits
